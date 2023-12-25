@@ -1,0 +1,121 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/work-sans-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/work-sans-v19-latin-600.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/work-sans-v19-latin-700.woff2') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/Frame\ 4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #F8EEFF;
+}
+
+.card {
+  display: flex;
+  width: 600px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 16px;
+  background: #FFF;
+  color: #8B6990;
+  font-family: 'Work Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.10);
+}
+
+.card__top {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 36.5px;
+}
+
+.card__top__title {
+  color: #301534;
+  font-family: 'Work Sans';
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.card__description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.card__description__top {
+  margin-top: 0;
+}
+
+.card__description__title {
+  color: #301534;
+  font-family: 'Work Sans';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card__description__title:active {
+  color: #AD28EB;
+}
+
+.card__text {
+  margin-bottom: 24px;
+}
+
+.card__line {
+  height: 1px;
+  align-self: stretch;
+  color: rgba(248, 238, 255, 1);
+}
+
+.card__description__bottom {
+  margin-bottom: 0;
+}
